@@ -1,13 +1,18 @@
 .header {
     padding: 24px 0;
+    background-color: rgb(237, 244, 237);
   }
   
   .header_logo {
-    font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(17, 5, 239, 0.91);
   }
   
   .header_logo a {
@@ -18,6 +23,7 @@
     display: flex;
     column-gap: 30px;
     align-items: center;
+    width: 100%;
   }
   
   .header_nav {
@@ -31,11 +37,15 @@
     display: flex;
     column-gap: 24px;
     align-items: center;
+    color: blue;
   }
   
   .header_nav a,
   .header_nav select {
     font-size: 16px;
-    color: #000000;
+    color: rgb(17,5,239,0.91);
   }
   
+  .header_h3{
+    font-weight: bold;
+  }

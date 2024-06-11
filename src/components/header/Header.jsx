@@ -7,7 +7,7 @@ function Header() {
         <div className="header_row">
           <div className="header_logo">
             <div>logo</div>
-            <h3>Zhykovskiy & Co</h3>
+            <h3 className="header_h3">Zhykovskiy & Co</h3>
           </div>
           <nav className="header_nav">
             <div className="header_nav-main">
@@ -15,7 +15,7 @@ function Header() {
                 <li className="heder_nav a">Головна</li>
                 <li className="heder_nav a">Напрямки діяльності</li>
                 <li className="heder_nav a">Про нас</li>
-                <li className="heder_nav a">Запис</li>
+                <li className="heder_nav a">Запис на консультацію</li>
                 <li className="heder_nav a">Контакти</li>
               </ul>
             </div>
