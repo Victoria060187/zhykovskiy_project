@@ -5,11 +5,14 @@ function MainPage() {
   return (
     <section className="main-page" style={{ backgroundImage: `url(${MainImg})` }}>
       <div className="container">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iusto accusamus et
-          suscipit veniam assumenda obcaecati. Reprehenderit libero, numquam, modi, velit provident
-          doloremque ut fugit eaque blanditiis nesciunt facilis doloribus!
-        </p>
+        <div className="main-content">
+          <div className="main-title">Zhukovskiy & Co</div>
+          <div className="main-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime inventore ratione
+            dolorum vitae ea explicabo quisquam dolorem ullam tempora tempore velit repellendus
+            soluta voluptates a, qui, eos aliquid perspiciatis facere.
+          </div>
+        </div>
       </div>
     </section>
   );
