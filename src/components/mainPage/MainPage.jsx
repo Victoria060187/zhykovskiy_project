@@ -4,7 +4,7 @@ import './MainPage.css';
 function MainPage() {
   return (
     <section className="main-page" style={{ backgroundImage: `url(${MainImg})` }}>
-      <div className="container">
+      <div className="main-container">
         <div className="main-content">
           <div className="main-title">Zhukovskiy & Co</div>
           <div className="main-text">
