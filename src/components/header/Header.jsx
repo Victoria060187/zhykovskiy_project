@@ -1,4 +1,5 @@
 import './Header.css';
+import Logo from '../../assets/images/logo.jpg';
 
 function Header() {
   return (
@@ -6,8 +7,10 @@ function Header() {
       <div className="container">
         <div className="header_row">
           <div className="header_logo">
-            <div>logo</div>
-            <h3 className="header_h3">Zhukovskyi & Co</h3>
+            <img src={Logo} alt="logo" />
+
+            {/* <div>logo</div>
+            <h3 className="header_h3">Zhukovskyi & Co</h3> */}
           </div>
           <nav className="header_nav">
             <div className="header_nav-main">
