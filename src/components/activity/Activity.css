@@ -1,0 +1,23 @@
+.activity_row {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.activity-title-container{
+    width: 650px;
+	margin: 0 auto;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.activity-title {
+	margin: 0 auto;
+	height: 100%;
+    font-family: 'Integral';
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 30px;
+}

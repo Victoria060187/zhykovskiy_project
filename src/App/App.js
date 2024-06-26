@@ -1,6 +1,7 @@
 import MainPage from '../components/mainPage/MainPage';
 import './App.scss';
 import Header from '../components/header/Header';
+import Activity from '../components/activity/Activity';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <MainPage />
         </div>
       </div>
+      <Activity />
     </div>
   );
 }
