@@ -10,10 +10,12 @@ function Activity() {
           </div>
 
           <div className="activity-content">
-            <div className="activity-item">Питання мобідізаціі</div>
-            <div className="activity-item">Питання мобідізаціі</div>
-            <div className="activity-item">Питання мобідізаціі</div>
-            <div className="activity-item">Питання мобідізаціі</div>
+            <ul>
+              <li className="activity-item">Відсрочка</li>
+              <li className="activity-item">Оскарження рішень ВЛК</li>
+              <li className="activity-item">Грошове забезпечення</li>
+              <li className="activity-item">Супровід у ТЦК</li>
+            </ul>
           </div>
         </div>
       </div>

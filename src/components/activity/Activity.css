@@ -7,17 +7,34 @@
 
 .activity-title-container{
     width: 650px;
-	margin: 0 auto;
+	/*margin: 0 auto;
 	height: 100%;
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 0;*/
+    background: rgba(64, 64, 84, 0.25)
 }
 .activity-title {
 	margin: 0 auto;
 	height: 100%;
+    width: 340px;
     font-family: 'Integral';
     font-size: 35px;
     text-transform: uppercase;
     margin: 30px;
+    text-align: center;
+}
+
+.activity-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.activity-item {
+    margin-bottom: 20px;
+    font-size: 25px;
+    list-style: square;
 }
