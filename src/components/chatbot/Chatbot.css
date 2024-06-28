@@ -1,0 +1,32 @@
+
+.chatbot-button {
+    background-color: #7e7979;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    width: 150px; /* Ширина кнопки */
+    height: 150px; /* Высота кнопки */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%; /* Круглая форма */
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chatbot-button:hover {
+    background-color: #686565;
+  }
+  .chatbot-button-container {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.chatbot-button-content {
+  margin: 100px;
+}
