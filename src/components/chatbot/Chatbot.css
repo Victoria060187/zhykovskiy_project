@@ -4,14 +4,14 @@
     border: none;
     color: black;
     padding: 15px 32px;
-    width: 150px; /* Ширина кнопки */
-    height: 150px; /* Высота кнопки */
+    width: 150px; 
+    height: 150px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
     cursor: pointer;
-    border-radius: 50%; /* Круглая форма */
+    border-radius: 50%;
     transition: background-color 0.3s;
     display: flex;
     justify-content: center;
