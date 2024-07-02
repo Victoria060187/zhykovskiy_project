@@ -18,12 +18,11 @@ function Chatbot() {
           <div className="chatbot-button-container">
             <div className="chatbot-button-content">
               <button type="button" className="chatbot-button" onClick={handleChatbotToggle}>
-                Відкрити чатбот
+                Відкрити чат-бот
               </button>
               {isChatbotOpen && (
                 <div className="chatbot-container">
-                  {/* Здесь можно вставить компонент вашего чатбота */}
-                  <p>Чатбот відкрит!</p>
+                  <p>Чат-бот відкрит!</p>
                 </div>
               )}
             </div>
