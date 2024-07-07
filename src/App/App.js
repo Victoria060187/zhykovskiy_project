@@ -5,6 +5,7 @@ import MainPage from '../components/mainPage/MainPage';
 import AboutUs from '../components/aboutUs/AboutUs';
 import Activity from '../components/activity/Activity';
 import Chatbot from '../components/chatbot/Chatbot';
+import Footer from '../components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AboutUs />
       </div>
       <Chatbot />
+      <Footer />
     </div>
   );
 }
