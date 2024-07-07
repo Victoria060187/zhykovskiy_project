@@ -1,0 +1,55 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #7e7979;
+  padding: 40px;
+}
+
+.footer-contacts h1 {
+    font-family: 'Integral';
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.footer-contacts p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-logo img {
+    width: 400px;
+    height: 150px;
+}
+
+.footer-text {
+    padding-top: 20px;
+}
+
+.footer-icons h1 {
+    font-family: 'Integral';
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+  
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icon img {
+    transition: filter 0.3s;
+}
+  
+.social-icon:hover img {
+    filter: brightness(0) invert(1);
+}
+  
