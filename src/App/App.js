@@ -12,14 +12,12 @@ function App() {
     <div className="App">
       <div className="container">
         <Header />
-        <div className="main_page-content">
-          <MainPage />
-        </div>
+        <MainPage />
         <Activity />
         <AboutUs />
+        <Chatbot />
+        <Footer />
       </div>
-      <Chatbot />
-      <Footer />
     </div>
   );
 }
