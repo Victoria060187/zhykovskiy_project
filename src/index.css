@@ -1,6 +1,10 @@
 @import './assets/fonts/fonts.css';
 @import './styles/reset.css';
 
+html, body {
+	scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Satoshi', sans-serif;

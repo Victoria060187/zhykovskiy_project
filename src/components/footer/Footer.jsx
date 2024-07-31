@@ -6,7 +6,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contacts" className="footer">
       <div className="container">
         <div className="footer-content">
           <div className="footer-contacts">

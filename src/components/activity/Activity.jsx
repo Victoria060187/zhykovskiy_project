@@ -2,7 +2,7 @@ import './Activity.css';
 
 function Activity() {
   return (
-    <section className="activity">
+    <section id="activity" className="activity">
       <div>
         <div className="activity_row">
           <div className="activity-title-container">
