@@ -2,7 +2,7 @@
 @import './styles/reset.css';
 
 html, body {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,4 +19,40 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   position: relative;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 13px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 11px;
+  }
+
+  .container {
+    padding: 0 5px;
+  }
 }
