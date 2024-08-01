@@ -9,7 +9,7 @@ function Chatbot() {
   };
 
   return (
-    <section className="chatbot">
+    <section id="consultation" className="chatbot">
       <div className="container">
         <div className="chatbot_row">
           <div className="chatbot-title-container">

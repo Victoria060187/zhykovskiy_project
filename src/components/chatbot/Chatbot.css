@@ -1,3 +1,6 @@
+.chatbot {
+  background: rgba(192, 192, 197, 0.444);
+}
 
 .chatbot-button {
     background-color: #7e7979;
@@ -49,7 +52,6 @@
 }
 .chatbot-title-container{
   width: 650px;
-  background: rgba(64, 64, 84, 0.25)
 }
 .chatbot-title {
 	margin: 150px auto;

@@ -3,14 +3,16 @@ import './MainPage.css';
 
 function MainPage() {
   return (
-    <section className="main-page" style={{ backgroundImage: `url(${MainImg})` }}>
+    <section id="home" className="main-page" style={{ backgroundImage: `url(${MainImg})` }}>
       <div className="main-container">
         <div className="main-content">
           <div className="main-title">Zhukovskyi & Co</div>
           <div className="main-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime inventore ratione
-            dolorum vitae ea explicabo quisquam dolorem ullam tempora tempore velit repellendus
-            soluta voluptates a, qui, eos aliquid perspiciatis facere.
+            Юридична компанія Zhukovskyi & Co пропонує сучасний підхід до вирішення юридичних
+            питань. Ми спілкуємося з клієнтами зрозумілою мовою, щоб вони чітко розуміли процес і
+            майбутні дії. Наша мета - підвищувати обізнаність у законодавстві, що допомагає
+            захиститися від свавілля та маніпуляцій. Юриспруденція може бути простою, якщо
+            пояснювати її без зайвого пафосу.
           </div>
         </div>
       </div>

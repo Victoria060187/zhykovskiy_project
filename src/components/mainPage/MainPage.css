@@ -2,6 +2,7 @@
     min-height: 100vh;
     background: no-repeat 50%/ cover;
 	position: relative;
+    overflow: hidden;
 }
 
 .main-container {
@@ -11,11 +12,10 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: rgba(64, 64, 84, 0.25);
+	background: rgba(192, 192, 197, 0.444);
 }
 
 .main-content {
-	width: 340px;
 	margin: 150px auto;
     text-align: center;
 }
@@ -29,6 +29,7 @@
 
 .main-text {
     margin: 30px;
-    font-size: 15px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 40px;
 }

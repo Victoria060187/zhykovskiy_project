@@ -1,5 +1,5 @@
 .about-us {
-    background-color: #7e7979;
+    background: rgba(132, 132, 135, 0.444);
     padding: 20px;
 }
 
@@ -18,17 +18,18 @@
 
 .about-title {
     font-family: 'Integral';
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 400;
     text-transform: uppercase;
-    margin: 60px 0;
 }
 
 .about-text {
     margin: 30px 0;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
+    line-height: 30px;
     overflow: hidden;
     white-space: pre-wrap;
     text-align: justify;
+    font-style: italic;
 }

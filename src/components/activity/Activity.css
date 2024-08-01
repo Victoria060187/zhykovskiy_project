@@ -1,34 +1,33 @@
-.activity_row {
-  display: flex;
-  column-gap: 30px;
-  align-items: center;
-  width: 100%;
-}
-
-.activity-title-container{
-    width: 650px;
-    background: rgba(64, 64, 84, 0.25)
-}
-.activity-title {
-	margin: 150px auto;
-	height: 100%;
-    width: 340px;
-    font-family: 'Integral';
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: center;
+.activity-container {
+    padding: 20px;
+    background: rgba(192, 192, 197, 0.444);
 }
 
 .activity-content {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-title {
+    font-family: 'Integral';
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.activity-text {
+    display: flex;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
-    padding-left: 100px;
 }
 
 .activity-item {
-    margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 18px;
     list-style: square;
+    line-height: 50px;
+    font-style: italic;
 }

@@ -5,18 +5,28 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        <div className="header_row">
-          <div className="header_logo">
+        <div className="header-row">
+          <div className="header-logo">
             <img src={Logo} alt="logo" />
           </div>
-          <nav className="header_nav">
-            <div className="header_nav-main">
+          <nav className="header-nav">
+            <div className="header-nav--main">
               <ul>
-                <li className="heder_nav a">Головна</li>
-                <li className="heder_nav a">Напрямки діяльності</li>
-                <li className="heder_nav a">Про нас</li>
-                <li className="heder_nav a">Запис на консультацію</li>
-                <li className="heder_nav a">Контакти</li>
+                <li className="header-nav a">
+                  <a href="#home">Головна</a>
+                </li>
+                <li className="header-nav a">
+                  <a href="#activity">Напрямки діяльності</a>
+                </li>
+                <li className="header-nav a">
+                  <a href="#aboutUs">Про нас</a>
+                </li>
+                <li className="header-nav a">
+                  <a href="#consultation">Запис на консультацію</a>
+                </li>
+                <li className="header-nav a">
+                  <a href="#contacts">Контакти</a>
+                </li>
               </ul>
             </div>
           </nav>
