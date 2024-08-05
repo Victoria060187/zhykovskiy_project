@@ -1,11 +1,8 @@
 import './Chatbot.css';
-import { useState } from 'react';
 
 function Chatbot() {
-  const [isChatbotOpen, setChatbotOpen] = useState(false);
-
-  const handleChatbotToggle = () => {
-    setChatbotOpen(!isChatbotOpen);
+  const handleChatbotRedirect = () => {
+    window.location.href = 'https://t.me/zhukovskyi_bot';
   };
 
   return (
@@ -17,14 +14,9 @@ function Chatbot() {
           </div>
           <div className="chatbot-button-container">
             <div className="chatbot-button-content">
-              <button type="button" className="chatbot-button" onClick={handleChatbotToggle}>
+              <button type="button" className="chatbot-button" onClick={handleChatbotRedirect}>
                 Відкрити чат-бот
               </button>
-              {isChatbotOpen && (
-                <div className="chatbot-container">
-                  <p>Чат-бот відкрит!</p>
-                </div>
-              )}
             </div>
           </div>
         </div>
