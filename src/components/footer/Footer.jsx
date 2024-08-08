@@ -39,7 +39,7 @@ function Footer() {
             </a>
             <a
               className="social-icon"
-              href="https://t.me/vzhykovski"
+              href="https://t.me/vzhykovskyi"
               target="_blank"
               rel="noreferrer"
             >
