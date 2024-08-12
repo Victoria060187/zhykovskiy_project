@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint",
     "format": "prettier --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start:bot": "node src/bot.js"
   },
   "eslintConfig": {
     "extends": [

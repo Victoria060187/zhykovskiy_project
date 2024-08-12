@@ -46,13 +46,3 @@ body {
     padding: 0 10px;
   }
 }
-
-@media (max-width: 576px) {
-  body {
-    font-size: 11px;
-  }
-
-  .container {
-    padding: 0 5px;
-  }
-}
