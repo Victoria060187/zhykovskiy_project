@@ -1,6 +1,10 @@
 @import './assets/fonts/fonts.css';
 @import './styles/reset.css';
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   scroll-behavior: smooth;
 }
@@ -15,34 +19,38 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
   position: relative;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1200px) {
   .container {
     padding: 0 20px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 992px) {
-  body {
-    font-size: 13px;
-  }
-
   .container {
     padding: 0 15px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 12px;
-  }
-
   .container {
     padding: 0 10px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 5px;
+    max-width: 100%;
   }
 }
