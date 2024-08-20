@@ -1,35 +1,37 @@
 .main-page {
     min-height: 100vh;
-    background: no-repeat 50%/ cover;
-	position: relative;
+    background: no-repeat center/cover;
+    position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
-
+  
 .main-container {
-	width: 650px;
-	margin: 0 auto;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background: rgba(192, 192, 197, 0.444);
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    background: rgba(192, 192, 197, 0.444);
+    padding: 20px;
+    box-sizing: border-box;
 }
-
+  
 .main-content {
-	margin: 150px auto;
     text-align: center;
 }
-
+  
 .main-title {
     font-family: 'Integral';
-    font-size: 35px;
+    font-size: 28px;
     text-transform: uppercase;
-    margin: 30px;
+    margin: 20px 0;
 }
-
+  
 .main-text {
-    margin: 30px;
-    font-size: 20px;
+    margin: 20px 0;
+    font-size: 18px;
     font-weight: 550;
-    line-height: 40px;
+    line-height: 1.6;
 }
