@@ -10,7 +10,7 @@
 }
 
 .header-logo img {
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   display: block;
 }
@@ -35,32 +35,26 @@
   color: #6d7175;
 }
 
-@media (max-width: 2000px) {
-  .header-logo img {
-    max-width: 400px;
-}
-
-  .header-nav--main ul {
-    gap: 15px;
-  }
-}
-
 @media (max-width: 768px) {
   .header-logo img {
     max-width: 200px;
   }
 
   .header-nav--main ul li {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 576px) {
   .header-logo img {
-    max-width: 150px;
+    max-width: 100px;
+  }
+
+  .header-nav--main ul {
+    gap: 10px;
   }
 
   .header-nav--main ul li {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
